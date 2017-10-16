@@ -1,0 +1,9 @@
+[core]  
+        shared=true
+        editor=vim
+[color] 
+        ui=true
+[user]  
+        name = Manabu ISHII
+        email = manabu.ishii.rb@gmail.com
+
