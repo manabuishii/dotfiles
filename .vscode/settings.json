@@ -1,0 +1,19 @@
+{
+  // https://www.macky-studio.com/entry/2019/07/04/152323
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "files.watcherExclude": {
+    "**/venv/**": true
+  },
+
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Args": [
+    "--max-line-length",
+    "99",
+    "--ignore=E203,W503,W504"
+  ],
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false
+}
