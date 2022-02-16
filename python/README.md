@@ -1,3 +1,9 @@
+## Setup files
+
+```console
+curl -o - https://raw.githubusercontent.com/manabuishii/dotfiles/main/python/getpythonsettingfiles.sh | bash -
+```
+
 ## Development
 
 ### lint
